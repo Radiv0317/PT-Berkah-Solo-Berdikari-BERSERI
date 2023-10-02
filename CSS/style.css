@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+ font-family: 'Poppins', sans-serif;   
+    
+}
+.contact{
+    margin-right: 20px;
+}
+.contact-button{
+    width: 100%;
+    justify-content: end;
+}
+.navbar{
+    font-weight: 500;
+    background-color: white;
+}
+.navbar-nav .nav-link{
+    color: black;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover{
+    color: #206500;
+}
+#header{
+    padding-top: 100px;
+    margin-top: 100px;
+    min-height: 0rem;
+}
+#header h1{
+   color: green;
+   font-weight: 600;
+}
+
+.pabrik{
+    margin-top: 40px;
+    width: 60%;
+}
+.header-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header-button a{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50px;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+#about{
+    min-height: 0rem;
+    font-size: 16px;
+    background-color: #206500;
+    color: white;
+}
+.sejarah{
+    color: white;
+    font-weight: 600;
+}
+#Product{
+    margin-top: 0px;
+}
+#Product h1{
+    color: green;
+    font-weight: 600;
+}
+.tentang{
+    padding-top: 100px;
+}
+#Galery{
+    padding-top: 50px;
+    background-color: #206500;
+    min-height: 50rem;
+    color: white;
+}
+#Galery img:hover{
+    opacity: 0.90;
+}
+.logo{
+    margin-right: 15px;
+}
+.navbar-brand{
+    font-weight: 600;
+    color: #206500;
+}
+.foot{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.link ul li {
+    text-decoration: none;
+    display: inline;
+}
+.link a:hover{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.linkhref{
+    margin-right: 10px;
+}
+.footer-content{
+    color: white;
+}
+#contact{
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+        font-size: 16px;
+    }
+    #header{
+        margin-top: 0px;
+    }
+  }
