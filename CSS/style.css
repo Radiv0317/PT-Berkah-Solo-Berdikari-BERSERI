@@ -21,12 +21,12 @@ body{
 .navbar-nav .nav-link:hover{
     color: #206500;
 }
-#header{
+#home{
     padding-top: 100px;
     margin-top: 100px;
     min-height: 0rem;
 }
-#header h1{
+#home h1{
    color: green;
    font-weight: 600;
 }
