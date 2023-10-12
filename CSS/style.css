@@ -22,15 +22,45 @@ body{
     color: #206500;
 }
 #home{
-    padding-top: 100px;
-    margin-top: 100px;
+    min-height: 47rem;
+    background-color: black;
+}
+.spacer{
+    background-color: black;
     min-height: 0rem;
 }
 #home h1{
-   color: green;
+   color: white;
    font-weight: 600;
 }
-
+#home h2{
+    color: #ffffff;
+    opacity: 0.6;
+}
+#home p{
+    color: white;
+}
+.demo-wrap {
+    position: relative;
+  }
+.demo-warp::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 102%;
+  opacity: 0.5;
+  background-image: url('/Asset/Background.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+.demo-content {
+    position: relative;
+    padding-top: 250px;
+  }
 .pabrik{
     margin-top: 40px;
     width: 60%;
@@ -38,10 +68,11 @@ body{
 .header-button{
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #ffffff;
 }
 .header-button a{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 50px;
     font-size: 20px;
     justify-content: center;
@@ -50,14 +81,27 @@ body{
 }
 
 #about{
+    margin-top: 0px;
     min-height: 0rem;
     font-size: 16px;
-    background-color: #206500;
     color: white;
+    background-color: #002913;
+    font-family: 'Poppins', sans-serif;    
 }
 .sejarah{
+    margin-top: 0px;
     color: white;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+}
+#about p{
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
 #Product{
     margin-top: 0px;
@@ -67,19 +111,30 @@ body{
     font-weight: 600;
 }
 .tentang{
-    padding-top: 100px;
+ padding-bottom: 50px;
 }
-#Galery{
-    padding-top: 50px;
-    background-color: #206500;
-    min-height: 50rem;
+.tentang button{
+    margin-left: 10px;
+}
+.tentang a{
+    text-decoration: none;
     color: white;
 }
-#Galery img:hover{
+#galery{
+    padding-top: 50px;
+    background-color: #002913;
+    min-height: 50rem;
+    color: white;
+    padding-bottom: 30px;
+}
+#galery img:hover{
     opacity: 0.90;
 }
 .logo{
     margin-right: 15px;
+}
+.kembali{
+    color: black;
 }
 .navbar-brand{
     font-weight: 600;
@@ -90,6 +145,12 @@ body{
     padding-bottom: 20px;
     color: white;
 }
+.link h5{
+    margin-left: 30px;
+}
+.link{
+    text-align: left;
+}
 .link a{
     text-decoration: none;
     color: white;
@@ -97,14 +158,19 @@ body{
 }
 .link ul li {
     text-decoration: none;
-    display: inline;
+    display: block;
 }
 .link a:hover{
     text-decoration: none;
     color: #b0b0b0;
 }
+#about h2{
+    font-weight: 600;
+}
 .linkhref{
-    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
 .footer-content{
     color: white;
@@ -112,7 +178,80 @@ body{
 #contact{
     padding-bottom: 0px;
 }
-@media only screen and (max-width: 600px) {
+.body{
+    margin-top: 30px;
+}
+.gambar{
+    margin-top: 20px;
+}
+.misi h2{
+    font-weight: 600;
+}
+.sejarah-pt h1{
+    font-weight: 600;
+}
+#sejarah-perushaan{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 700px) {
+    .spacer{
+        background-color: black;
+        min-height: 15rem;
+    }
+    #home{
+        min-height: 0rem;
+        background-color: black;
+        margin-top: 0px;
+    }
+    #about{
+        margin-top: 0%;
+        min-height: 50rem;
+        font-size: 16px;
+        color: white;
+        background-color: #002913;
+        font-family: 'Poppins', sans-serif;    
+    }
+    .sejarah{
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #about p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .demo-wrap {
+        position: relative;
+      }
+    .demo-warp::before{
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 77%;
+      opacity: 0.4;
+      background-image: url('/Asset/Background.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+    #home h1{
+   color: white;
+   font-weight: 600;
+}
+#home h2{
+    color: #ffffff;
+    opacity: 0.6;
+}
+    .demo-content {
+        position: relative;
+        padding-top: 250px;
+      }
     .navbar-brand{
         font-size: 16px;
     }
@@ -120,3 +259,70 @@ body{
         margin-top: 0px;
     }
   }
+  .tentang{
+    padding-top: 100px;
+    margin-top: 0%;
+
+}
+  
+  /* @media only screen and (max-width: 700px) {
+    #home{
+        min-height: 0rem;
+        background-color: black;
+    }
+    #about{
+        margin-top: 0%;
+        min-height: 50rem;
+        font-size: 16px;
+        color: white;
+        background-color: #002913;
+        font-family: 'Poppins', sans-serif;    
+    }
+    .sejarah{
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #about p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .demo-wrap {
+        position: relative;
+      }
+    .demo-warp::before{
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 64%;
+      opacity: 0.4;
+      background-image: url('/Asset/Background.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+    #home h1{
+   color: white;
+   font-weight: 600;
+}
+#home h2{
+    color: #ffffff;
+    opacity: 0.6;
+}
+    .demo-content {
+        position: relative;
+        padding-top: 250px;
+      }
+    .navbar-brand{
+        font-size: 16px;
+    }
+    #header{
+        margin-top: 0px;
+    }
+  } */
