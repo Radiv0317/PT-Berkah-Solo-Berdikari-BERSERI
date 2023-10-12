@@ -23,7 +23,7 @@ body{
 }
 #home{
     min-height: 47rem;
-    background-color: black;
+    background-color: #002913;
 }
 .spacer{
     background-color: black;
@@ -51,7 +51,7 @@ body{
   top: 0;
   width: 100%;
   height: 102%;
-  opacity: 0.5;
+  opacity: 0.6;
   background-image: url('/Asset/Background.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -201,7 +201,7 @@ body{
     }
     #home{
         min-height: 50rem;
-        background-color: black;
+        background-color: #002913;
         margin-top: 0px;
     }
     #about{
@@ -235,7 +235,7 @@ body{
       top: 0;
       width: 100%;
       height: 77%;
-      opacity: 0.4;
+      opacity: 0.6;
       background-image: url('/Asset/Background.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
@@ -273,7 +273,7 @@ body{
     }
     #home{
         min-height: 50rem;
-        background-color: black;
+        background-color: #002913;
         margin-top: 0px;
     }
     #about{
@@ -307,7 +307,7 @@ body{
       top: 0;
       width: 100%;
       height: 77%;
-      opacity: 0.4;
+      opacity: 0.6;
       background-image: url('/Asset/Background.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
@@ -345,7 +345,7 @@ body{
     }
     #home{
         min-height: 45rem;
-        background-color: black;
+        background-color: #002913;
         margin-top: 0px;
         padding-bottom: 20px;
     }
@@ -380,7 +380,7 @@ body{
       top: 0;
       width: 100%;
       height: 77%;
-      opacity: 0.4;
+      opacity: 0.6;
       background-image: url('/Asset/Background.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
@@ -414,7 +414,7 @@ body{
   @media only screen and (max-width: 700px) {
     #home{
         min-height: 34rem;
-        background-color: black;
+        background-color: #002913;
     }
     #about{
         margin-top: 0%;
@@ -447,7 +447,7 @@ body{
       top: 0;
       width: 100%;
       height: 64%;
-      opacity: 0.4;
+      opacity: 0.6;
       background-image: url('/Asset/Background.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
@@ -475,7 +475,7 @@ body{
   @media only screen and (max-width: 900px) {
     #home{
         min-height: 34rem;
-        background-color: black;
+        background-color: #002913;
     }
     #about{
         margin-top: 0%;
@@ -508,129 +508,7 @@ body{
       top: 0;
       width: 100%;
       height: 64%;
-      opacity: 0.4;
-      background-image: url('/Asset/Background.jpg');
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-      background-size: cover;
-    }
-    #home h1{
-   color: white;
-   font-weight: 600;
-}
-#home h2{
-    color: #ffffff;
-    opacity: 0.6;
-}
-    .demo-content {
-        position: relative;
-        padding-top: 250px;
-      }
-    .navbar-brand{
-        font-size: 16px;
-    }
-    #header{
-        margin-top: 0px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    #home{
-        min-height: 34rem;
-        background-color: black;
-    }
-    #about{
-        margin-top: 0%;
-        min-height: 0rem;
-        font-size: 16px;
-        color: white;
-        background-color: #002913;
-        font-family: 'Poppins', sans-serif;    
-    }
-    .sejarah{
-        margin-top: 10px;
-        color: white;
-        font-weight: bold;
-        font-size: 30px;
-        margin-left: 10px;
-    }
-    #about p{
-        font-size: 18px;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    .demo-wrap {
-        position: relative;
-      }
-    .demo-warp::before{
-      content: ' ';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 64%;
-      opacity: 0.4;
-      background-image: url('/Asset/Background.jpg');
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-      background-size: cover;
-    }
-    #home h1{
-   color: white;
-   font-weight: 600;
-}
-#home h2{
-    color: #ffffff;
-    opacity: 0.6;
-}
-    .demo-content {
-        position: relative;
-        padding-top: 250px;
-      }
-    .navbar-brand{
-        font-size: 16px;
-    }
-    #header{
-        margin-top: 0px;
-    }
-  }
-  @media only screen and (max-width: 2000px) {
-    #home{
-        min-height: 34rem;
-        background-color: black;
-    }
-    #about{
-        margin-top: 0%;
-        min-height: 0rem;
-        font-size: 16px;
-        color: white;
-        background-color: #002913;
-        font-family: 'Poppins', sans-serif;    
-    }
-    .sejarah{
-        margin-top: 10px;
-        color: white;
-        font-weight: bold;
-        font-size: 30px;
-        margin-left: 10px;
-    }
-    #about p{
-        font-size: 18px;
-        font-weight: 400;
-        margin-left: 10px;
-    }
-    .demo-wrap {
-        position: relative;
-      }
-    .demo-warp::before{
-      content: ' ';
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 64%;
-      opacity: 0.4;
+      opacity: 0.6;
       background-image: url('/Asset/Background.jpg');
       background-repeat: no-repeat;
       background-position: 50% 0;
