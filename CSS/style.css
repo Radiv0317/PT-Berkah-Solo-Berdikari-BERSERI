@@ -194,11 +194,11 @@ body{
     margin-top: 30px;
 }
 @media only screen and (max-width: 300px) {
-    /* .spacer{
-        margin-top: 100px;
+    .spacer{
+        margin-top: 10px;
         background-color: #002913;
         min-height: 10rem;
-    } */
+    }
     #home{
         min-height: 50rem;
         background-color: black;
@@ -266,11 +266,11 @@ body{
 
 }
 @media only screen and (max-width: 400px) {
-    /* .spacer{
-        margin-top: 100px;
+    .spacer{
+        margin-top: 10px;
         background-color: #002913;
         min-height: 10rem;
-    } */
+    }
     #home{
         min-height: 50rem;
         background-color: black;
@@ -338,11 +338,11 @@ body{
 
 }
 @media only screen and (max-width: 600px) {
-    /* .spacer{
-        margin-top: 100px;
+    .spacer{
+        margin-top: 1px;
         background-color: #002913;
-        min-height: 10rem;
-    } */
+        min-height: 1rem;
+    }
     #home{
         min-height: 45rem;
         background-color: black;
@@ -350,7 +350,7 @@ body{
         padding-bottom: 20px;
     }
     #about{
-        padding-top: 10px;
+        padding-top: 0px;
         min-height: 30rem;
         font-size: 16px;
         color: white;
